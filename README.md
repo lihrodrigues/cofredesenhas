@@ -5,6 +5,7 @@ import random
 import string
 from datetime import datetime, timedelta
 
+
 class PasswordVault:
     def __init__(self):
         self.password_history = {}  # Dicionário para armazenar o histórico de senhas
